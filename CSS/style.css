@@ -9,6 +9,7 @@
 body {
     font-family: "Poppins", serif !important;
     font-style: normal;
+    background-color: #F9F9F9 !important;
 }
 
 :root {
@@ -142,5 +143,50 @@ body {
     .sec-1-phone-num-email-sec .sec-1-email-id {
         padding-left: 0px !important;
         border-left: none;
+    }
+}
+
+/* Header Section in Enrich */
+
+.header {
+    height: auto !important;
+    background-color: var(--white);
+    padding: 10px 23px;
+    box-shadow: 0px 2px 4px var(--sim-dark-grey);
+}
+
+.header-menu ul {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 770px) {
+    .body .header {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .header-menu ul {
+        justify-content: center !important;
+        margin: 10px 0 !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .header {
+        padding: 10px 0 !important;
+    }
+
+    .header-main-logo div img {
+        width: 98% !important;
+    }
+
+    .header-menu ul {
+        display: block !important;
+        width: 100%;
+    }
+
+    .header-menu ul li {
+        margin-right: 0 !important;
     }
 }
