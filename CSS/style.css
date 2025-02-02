@@ -31,11 +31,11 @@ body {
 }
 
 .sim-dark-grey-color {
-    color: var(--sim-dark-brown);
+    color: var(--sim-dark-grey);
 }
 
 .sim-light-grey-color {
-    color: var(--sim-light-brown);
+    color: var(--sim-light-grey);
 }
 
 .white-color {
@@ -347,12 +347,12 @@ body {
 }
 
 @media screen and (max-width: 520px) {
-    .sec-5-right-sec div{
+    .sec-5-right-sec div {
         display: block !important;
         width: 100% !important;
     }
 
-    .sec-5-right-sec div div{
+    .sec-5-right-sec div div {
         padding: 0px !important;
     }
 }
@@ -362,7 +362,70 @@ body {
         padding: 50px 0 !important;
     }
 
-    .sec-5-left-sec .sec-5-left-sec-heading{
+    .sec-5-left-sec .sec-5-left-sec-heading {
         font-size: 25px !important;
+    }
+}
+
+/* Section 6 in Enrich */
+
+.sec-6 {
+    height: auto;
+    padding: 100px 0;
+    background-color: var(--white);
+}
+
+.sec-6-main-contaier {
+    width: 60%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sec-6-main-contaier div {
+    height: 60px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .sec-6 .sec-6-main-contaier {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .sec-6-main-contaier div .select-post {
+        margin-right: 10px !important;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .sec-6 .sec-6-main-contaier {
+        display: block !important;
+        width: 100%;
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .sec-6-main-contaier div {
+        border: none !important;
+        justify-content: center !important;
+    }
+
+    .sec-6-main-contaier div p {
+        margin-right: 10px !important;
+    }
+
+    .sec-6-main-contaier div img {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .sec-6 {
+        padding: 50px 0 !important;
+    }
+
+    .sec-6 .sec-6-main-hading {
+        font-size: 30px;
     }
 }
