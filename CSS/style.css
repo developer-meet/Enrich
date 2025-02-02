@@ -301,3 +301,68 @@ body {
         font-size: 18px !important;
     }
 }
+
+/* Section 5 in Enrich */
+
+.sec-5 {
+    height: auto;
+    padding: 100px 0;
+    background-color: #F0F0F0;
+}
+
+.sec-5-left-sec {
+    width: 35%;
+    height: 100%;
+}
+
+.sec-5-right-sec {
+    width: 55%;
+    height: 100%;
+    background-color: var(--white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .body .sec-5 {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .sec-5 .sec-5-left-sec {
+        width: 100% !important;
+    }
+
+    .sec-5 .sec-5-right-sec {
+        width: 90% !important;
+        margin: 20px auto 0 !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .sec-5 .sec-5-right-sec {
+        padding: 20px !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .sec-5-right-sec div{
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .sec-5-right-sec div div{
+        padding: 0px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .sec-5 {
+        padding: 50px 0 !important;
+    }
+
+    .sec-5-left-sec .sec-5-left-sec-heading{
+        font-size: 25px !important;
+    }
+}
