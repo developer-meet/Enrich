@@ -429,3 +429,70 @@ body {
         font-size: 30px;
     }
 }
+
+/* Section 7 in Enrich */
+
+.sec-7 {
+    height: auto;
+    background-color: #F9F9F9;
+}
+
+.sec-7 .sec-7-left-sec {
+    width: 35%;
+    height: 100%;
+}
+
+.sec-7 .sec-7-left-sec img {
+    margin-top: 100px;
+
+}
+
+.sec-7 .sec-7-right-sec {
+    width: 55%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.sec-7-right-sec-main-container {
+    background-color: var(--white);
+    padding: 50px 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sec-7-skill {
+    color: #B38C5C;
+}
+
+@media screen and (max-width: 1190px) {
+    .body .sec-7 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .sec-7 .sec-7-left-sec {
+        display: none !important;
+    }
+
+    .sec-7 .sec-7-right-sec {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .sec-7-right-sec .sec-7-right-sec-main-container {
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sec-7 .sec-7-right-sec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sec-7-right-sec .sec-7-right-sec-heading {
+        font-size: 25px;
+    }
+}
