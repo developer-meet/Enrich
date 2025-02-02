@@ -10,3 +10,92 @@ body {
     font-family: "Poppins", serif !important;
     font-style: normal;
 }
+
+:root {
+    --sim-dark-brown: #563727;
+    --sim-light-brown: #B38C5C;
+    --sim-dark-grey: #D9D9D9;
+    --sim-light-grey: #B4B4B4;
+    --white: white;
+    --black: black;
+}
+
+/* Color CSS */
+
+.sim-dark-brown-color {
+    color: var(--sim-dark-brown);
+}
+
+.sim-light-brown-color {
+    color: var(--sim-light-brown);
+}
+
+.sim-dark-grey-color {
+    color: var(--sim-dark-brown);
+}
+
+.sim-light-grey-color {
+    color: var(--sim-light-brown);
+}
+
+.white-color {
+    color: var(--white);
+}
+
+.black-color {
+    color: var(--black);
+}
+
+/* Width Related CSS */
+
+.width-1320px {
+    width: 1320px;
+}
+
+/* Border-Radius Related CSS */
+
+.border-radius-5px {
+    border-radius: 5px;
+}
+
+.border-radius-30px {
+    border-radius: 30px;
+}
+
+/* Font-size Related CSS */
+
+.font-size-46px {
+    font-size: 46px;
+}
+
+.font-size-36px {
+    font-size: 36px;
+}
+
+.font-size-22px {
+    font-size: 22px;
+}
+
+/* Font-weight Related CSS */
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+/* Bttton Related CSS */
+
+.button-color-white-bg-color-sim-brown {
+    background-color: var(--sim-light-brown);
+    color: var(--white);
+    border: none;
+}
+
+.button-color-sim-brown-bg-color-white {
+    background-color: var(--white);
+    color: var(--sim-light-brown);
+    border: 2px solid var(--sim-light-brown);
+}
