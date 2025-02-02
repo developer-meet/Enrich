@@ -99,3 +99,48 @@ body {
     color: var(--sim-light-brown);
     border: 2px solid var(--sim-light-brown);
 }
+
+
+/* Sec 1 in Enrich */
+
+.sec-1 {
+    height: 50px;
+    background-color: var(--sim-dark-brown);
+    padding: 0 23px;
+}
+
+.sec-1-email-id {
+    border-left: 2px solid var(--white);
+}
+
+@media screen and (max-width: 470px) {
+    .body .sec-1 {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        text-align: center !important;
+        padding: 10px 0;
+    }
+
+    .sec-1 .sec-1-phone-num-email-sec {
+        justify-content: center !important;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .sec-1 .sec-1-phone-num-email-sec {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .sec-1-phone-num-email-sec .sec-1-phone-num {
+        padding-right: 0px !important;
+    }
+
+    .sec-1-phone-num-email-sec .sec-1-email-id {
+        padding-left: 0px !important;
+        border-left: none;
+    }
+}
