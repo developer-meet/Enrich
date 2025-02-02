@@ -9,7 +9,6 @@
 body {
     font-family: "Poppins", serif !important;
     font-style: normal;
-    background-color: #F9F9F9 !important;
 }
 
 :root {
@@ -49,8 +48,8 @@ body {
 
 /* Width Related CSS */
 
-.width-1320px {
-    width: 1320px;
+.max-width-1320px {
+    max-width: 1320px;
 }
 
 /* Border-Radius Related CSS */
@@ -107,7 +106,7 @@ body {
 .sec-1 {
     height: 50px;
     background-color: var(--sim-dark-brown);
-    padding: 0 23px;
+    padding: 0 14.5px;
 }
 
 .sec-1-email-id {
@@ -151,7 +150,7 @@ body {
 .header {
     height: auto !important;
     background-color: var(--white);
-    padding: 10px 23px;
+    padding: 10px 14.5px;
     box-shadow: 0px 2px 4px var(--sim-dark-grey);
 }
 
@@ -188,5 +187,44 @@ body {
 
     .header-menu ul li {
         margin-right: 0 !important;
+    }
+}
+
+/* Section 3 in Enrich */
+
+.sec-3 {
+    height: auto;
+    padding: 100px 0;
+}
+
+@media screen and (max-width: 960px) {
+    .body .sec-3 {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .sec-3 .sec-3-left-sec {
+        width: 100% !important;
+        padding: 0 14.5px !important;
+    }
+
+    .sec-3 .sec-3-right-sec {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .sec-3 {
+        padding: 50px 0 !important;
+    }
+
+    .sec-3 .sec-3-left-sec {
+        padding: 0 !important;
+    }
+
+    .sec-3-left-sec .sec-3-left-sec-heading {
+        font-size: 30px !important;
     }
 }
