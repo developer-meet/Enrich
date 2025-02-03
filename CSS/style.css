@@ -549,3 +549,138 @@ body {
         font-size: 30px;
     }
 }
+
+/* Section 9 in Enrich */
+
+.sec-9 {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F9F9F9;
+}
+
+.sec-9-main-container {
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--white);
+}
+
+.sec-9-main-container .get-in-touch-sec {
+    height: 100%;
+    width: 60%;
+    padding: 40px 30px;
+}
+
+.sec-9-form-1-title p {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.sec-9-form-1-input {
+    margin-bottom: 10px;
+}
+
+.sec-9-form-1-input input {
+    width: 48%;
+    border-radius: 5px;
+    border: 2px solid var(--sim-dark-grey);
+    padding: 10px;
+    outline: none;
+}
+
+.sec-9-form-2-input {
+    width: 100%;
+}
+
+.sec-9-form-2-input p {
+    margin-bottom: 10px;
+}
+
+.sec-9-form-2-input input,
+select {
+    margin-bottom: 15px !important;
+}
+
+.sec-9-form-2-input input,
+select,
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid var(--sim-dark-grey);
+    padding: 10px;
+    outline: none;
+}
+
+.sec-9-form-2-input textarea {
+    max-height: 110px;
+}
+
+.contact-info-sec {
+    height: auto;
+    width: 40%;
+    background-color: var(--sim-dark-brown);
+}
+
+.contact-info-content {
+    padding: 30px 20px 10px 30px;
+}
+
+@media screen and (max-width: 1100px) {
+    .sec-9 .sec-9-main-container {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .sec-9-main-container .get-in-touch-sec {
+        width: 100%;
+    }
+
+    .sec-9-main-container .contact-info-sec {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .body .sec-9 {
+        padding: 50px 10px !important;
+    }
+
+    .get-in-touch-sec .get-in-touch-sec-heading {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+
+    .get-in-touch-sec .sec-9-form-1-title,
+    .sec-9-form-1-title p,
+    .sec-9-form-1-input,
+    .sec-9-form-1-input input {
+        display: none !important;
+    }
+
+    .get-in-touch-sec .sec-9-form-2-input .d-none {
+        display: block !important;
+    }
+
+    .get-in-touch-sec button {
+        width: 100% !important;
+    }
+
+    .contact-info-content .contact-info-main-heading {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+
+    .contact-info-sec .contact-info-content {
+        padding: 10px;
+    }
+
+    .contact-info-content div {
+        display: block !important;
+        text-align: center;
+    }
+
+    .contact-info-content div .ps-3 {
+        padding-left: 0 !important;
+    }
+}
