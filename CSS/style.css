@@ -684,3 +684,30 @@ textarea {
         padding-left: 0 !important;
     }
 }
+
+/* Footer Section in Enrich */
+
+.footer {
+    height: auto;
+    background-color: var(--sim-dark-brown);
+    padding: 20px 14.5px;
+}
+
+@media screen and (max-width: 750px) {
+    .body .footer {
+        display: block !important;
+        height: auto !important;
+        padding: 15px 14.5px !important;
+        text-align: center !important;
+    }
+
+    .footer .footer-right-sec {
+        margin-top: 10px !important;
+        display: block !important;
+        width: 100%;
+    }
+
+    .footer .footer-right-sec p {
+        margin-right: 0px !important;
+    }
+}
