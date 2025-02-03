@@ -496,3 +496,56 @@ body {
         font-size: 25px;
     }
 }
+
+/* Section 8 in Enrich */
+
+.sec-8 {
+    height: auto;
+    padding: 100px 0;
+    background-color: var(--white);
+}
+
+.sec-8 div div {
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 50px;
+}
+
+@media screen and (max-width: 1080px) {
+    .sec-8 div div {
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .sec-8 div div {
+        padding: 15px 15px;
+    }
+
+    .sec-8 div div img {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .sec-8 div {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .sec-8 div div {
+        width: 50% !important;
+        margin: 20px auto 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .sec-8 {
+        padding: 50px 0 !important;
+    }
+
+    .sec-8 .sec-8-main-hading {
+        font-size: 30px;
+    }
+}
